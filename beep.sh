@@ -1,4 +1,12 @@
 #! /bin/bash
+
+if [ $USER != 'root' ]; then
+  echo "ゴミの回収はroot権限が必要です"
+  exit 1
+fi
+
+modprobe pcspkr
+
 echo 清掃中......
 
 # 1 テレレレレレレー
@@ -81,3 +89,5 @@ beep -f 932 -l 200
 beep -f 1564 -l 400
 beep -f 1396 -l 200
 beep -f 1244 -l 800
+
+modprobe -r pcspkr
