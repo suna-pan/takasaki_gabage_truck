@@ -1,4 +1,4 @@
-takasaki_gabage_truck
+takasaki_garbage_truck
 =====================
 
 高崎市クリーンセンター
