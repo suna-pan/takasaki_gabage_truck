@@ -94,4 +94,43 @@ beep -f 1564 -l 600
 beep -f 1396 -l 300
 beep -f 1244 -l 1200
 
-modprobe -r pcspkr
+
+
+# 1 テレレレレレレー
+beep -f 466 -l 300
+beep -f 391 -l 300
+beep -f 466 -l 300
+beep -f 622 -l 300
+beep -f 782 -l 300
+beep -f 932 -l 300
+beep -f 1564 -l 1200
+sleep 0.6
+beep -f 1396 -l 300
+
+# 2 テーレレレレレー
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1396 -l 50
+beep -f 1244 -l 50
+beep -f 1244 -l 300
+beep -f 1174 -l 300
+beep -f 1046 -l 300
+beep -f 1046 -l 1200
+sleep 0.6
+
+
+modprobe -rdd pcspkr
